@@ -1,5 +1,5 @@
 import quotes from "../../quotes.json";
-const totalQuotes = 5421;
+const totalQuotes = quotes.length;
 
 export default function handler(req, res) {
 	const randomNum = Math.floor(Math.random() * totalQuotes);

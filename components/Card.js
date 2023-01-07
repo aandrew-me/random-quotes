@@ -3,7 +3,7 @@ import quotes from "../quotes.json";
 
 export default function Card() {
 	const card = useRef();
-	const totalQuotes = 5421;
+	const totalQuotes = quotes.length;
 	const [author, setAuthor] = useState();
 	const [quote, setQuote] = useState();
 
